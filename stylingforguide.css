@@ -1,0 +1,130 @@
+html {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 225px;
+    margin-right: 225px;
+}
+
+.breadcrumb li{
+    display: inline-block;
+}
+
+.breadcrumb li+li::before{
+    content: ">";
+}
+
+.colors,
+.fonts,
+.text {
+    border: 2px solid hsl(30, 2%, 76%);
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.midnightblue p,
+.hotpink p,
+.forestgreen p {
+    color: white;
+    text-align: center;
+}
+
+.cream p {
+    text-align: center;
+}
+
+.midnightblue {
+    background-color: hsl(224, 62%, 36%);
+    width: 30%;
+    display: inline-block;
+    border: 2px solid black;
+    border-bottom: 5px solid black;
+    ;
+}
+
+.hotpink {
+    background-color: hsl(308, 53%, 51%);
+    width: 30%;
+    display: inline-block;
+    border: 2px solid black;
+    border-bottom: 5px solid black;
+}
+
+.forestgreen {
+    background-color: hsl(106, 37%, 23%);
+    width: 30%;
+    display: inline-block;
+    border: 2px solid black;
+    border-bottom: 5px solid black;
+}
+
+.cream{
+    background-color: hsl(29, 45%, 86%);
+    width: 30%;
+    display: inline-block;
+    border: 2px solid black;
+    border-bottom: 5px solid black;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.roboto {
+    font-family: Roboto,'Helvetica Neue', sans-serif;
+}
+
+.playfair {
+  font-family: "Playfair Display";
+}
+
+.anek {
+    font-family: "Anek Devanagari";
+}
+
+.underline {
+    text-decoration-line: underline;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.fonts p,
+.fonts h2 {
+    line-height: 160%;
+}
+
+.text h1 {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: Roboto;
+}
+
+.text .sub {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Playfair Display";
+}
+
+.text p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Anek Devanagari";
+}
+
+.midnightblue:hover,
+.hotpink:hover,
+.forestgreen:hover,
+.cream:hover {
+    cursor: pointer;
+}
+
+.midnightblue:active,
+.hotpink:active,
+.forestgreen:active,
+.cream:active {
+    background-color: rgb(245, 167, 212);
+    border: 1px solid black;
+    border-bottom: 1px solid black;
+}
